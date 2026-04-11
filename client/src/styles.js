@@ -15,7 +15,7 @@ export default makeStyles((theme) => ({
   },
   brandContainer: {
     display: 'flex',
-    flexDirection: 'column', // This is what stacks the text!
+    flexDirection: 'column', 
     alignItems: 'center',
   },
  heading: {
@@ -30,12 +30,16 @@ export default makeStyles((theme) => ({
     color: 'rgba(48, 18, 119, 0.8)',
     fontSize: '1.2rem',
     fontWeight: '400',
-    marginTop: '-5px', // Keeps the tagline tight to the heading
+    marginTop: '-5px', 
     fontStyle: 'italic',
   },
   image: {
+    width: '120px', 
+    height: 'auto', 
     marginLeft: '15px',
+    maxWidth: '100%', 
     [theme.breakpoints.down('sm')]: {
+      width: '100%', 
       marginLeft: '0',
       marginTop: '10px',
     },

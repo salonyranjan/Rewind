@@ -6,7 +6,7 @@ import Posts from './components/Posts/Posts';
 import Form from './components/Form/Form';
 import { getPosts } from './actions/posts'; 
 import useStyles from './styles';
-import memories from './images/memories.png'; 
+import memories from './images/pic.jpg'; 
 
 const App = () => {
   const [currentId, setCurrentId] = useState(0);
