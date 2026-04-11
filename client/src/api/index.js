@@ -1,7 +1,6 @@
 import axios from 'axios';
 
-// Ensure this matches your server port
-const url = 'http://localhost:5000/posts';
+const url = '/api/posts'; 
 
 export const fetchPosts = () => axios.get(url);
 export const createPost = (newPost) => axios.post(url, newPost);
