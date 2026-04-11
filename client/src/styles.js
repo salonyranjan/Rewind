@@ -9,7 +9,6 @@ export default makeStyles((theme) => ({
     justifyContent: 'center',
     alignItems: 'center',
     padding: '10px 0',
-    // Stacks title and icon vertically on small screens
     [theme.breakpoints.down('sm')]: {
       flexDirection: 'column',
     },
@@ -20,7 +19,7 @@ export default makeStyles((theme) => ({
     alignItems: 'center',
   },
  heading: {
-  background: 'linear-gradient(45deg, #00B7FF 30%, #0072FF 90%)',
+  background: 'linear-gradient(45deg, #162227ff 30%, #0f3e76ff 90%)',
   WebkitBackgroundClip: 'text',
   WebkitTextFillColor: 'transparent',
   fontWeight: '600',
@@ -28,7 +27,7 @@ export default makeStyles((theme) => ({
   alignItems: 'center',
 },
   tagline: {
-    color: 'rgba(0,183,255, 0.8)',
+    color: 'rgba(48, 18, 119, 0.8)',
     fontSize: '1.2rem',
     fontWeight: '400',
     marginTop: '-5px', // Keeps the tagline tight to the heading
