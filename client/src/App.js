@@ -4,9 +4,9 @@ import { useDispatch } from 'react-redux';
 
 import Posts from './components/Posts/Posts';
 import Form from './components/Form/Form';
-import { getPosts } from './actions/posts'; // Named import matches named export
+import { getPosts } from './actions/posts'; 
 import useStyles from './styles';
-import memories from './images/memories.png'; // Consider renaming this to rewind.png later!
+import memories from './images/memories.png'; 
 
 const App = () => {
   const [currentId, setCurrentId] = useState(0);
@@ -20,9 +20,14 @@ const App = () => {
   return (
     <Container maxWidth="lg">
       <AppBar className={classes.appBar} position="static" color="inherit">
-        <Typography className={classes.heading} variant="h2" align="center">
-          Rewind
-        </Typography>
+        <div className={classes.brandContainer}>
+          <Typography className={classes.heading} variant="h2" align="center">
+            Rewind
+          </Typography>
+          <Typography className={classes.tagline} variant="h6" align="center">
+            Don't just remember. Rewind.
+          </Typography>
+        </div>
         <img className={classes.image} src={memories} alt="icon" height="60" />
       </AppBar>
       <Grow in>
