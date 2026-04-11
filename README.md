@@ -23,9 +23,8 @@ graph TD
     Backend -->|Auth/Logic| Middleware[JWT & Express Validator]
     Middleware -->|Queries| DB[(MongoDB Atlas)]
     Backend -->|Asset Hosting| Storage[Cloudinary/AWS S3]
-
-    ```
- ---
+```
+---
 
 ## 🔄 Workflow Diagram
 This diagram outlines the logic flow from user authentication to content rendering.
@@ -46,8 +45,7 @@ sequenceDiagram
     D-->>B: Success Response
     B-->>F: Update Redux Store
     F->>U: Render New 3D Element
-
-    ```
+```
  ---
 
 ## 📊 Data Models (ER Diagram)
@@ -70,7 +68,7 @@ erDiagram
         string mediaUrl
         datetime createdAt
     }
-    ```
+```
 ---
 
 ## 🌊 Dataflow Diagram (DFD - Level 1)
