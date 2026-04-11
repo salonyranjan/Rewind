@@ -7,17 +7,23 @@ import postRoutes from './routes/posts.js';
 const app = express();
 dotenv.config(); 
 
-
 app.use(express.json({ limit: "30mb", extended: true }));
 app.use(express.urlencoded({ limit: "30mb", extended: true }));
 app.use(cors());
 
+// Health check route for Vercel
+app.get('/', (req, res) => {
+    res.send('Rewind API is running');
+});
 
 app.use('/posts', postRoutes);
 
 const CONNECTION_URL = process.env.CONNECTION_URL;
-const PORT = process.env.PORT || 5000;
 
+// Connect to MongoDB without app.listen()
 mongoose.connect(CONNECTION_URL)
-    .then(() => app.listen(PORT, () => console.log(`Server running on port: ${PORT}`))) 
+    .then(() => console.log("Connected to MongoDB"))
     .catch((error) => console.log(error.message));
+
+// CRITICAL: Export app for Vercel
+export default app;
