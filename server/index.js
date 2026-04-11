@@ -9,21 +9,20 @@ dotenv.config();
 
 app.use(express.json({ limit: "30mb", extended: true }));
 app.use(express.urlencoded({ limit: "30mb", extended: true }));
+
+// IMPORTANT: Update this to your Vercel URL later to keep it secure
 app.use(cors());
 
-// Health check route for Vercel
 app.get('/', (req, res) => {
-    res.send('Rewind API is running');
+    res.send('Rewind API is running on Render');
 });
 
 app.use('/posts', postRoutes);
 
 const CONNECTION_URL = process.env.CONNECTION_URL;
+const PORT = process.env.PORT || 5000;
 
-// Connect to MongoDB without app.listen()
+// On Render, we MUST use app.listen
 mongoose.connect(CONNECTION_URL)
-    .then(() => console.log("Connected to MongoDB"))
+    .then(() => app.listen(PORT, () => console.log(`Server running on port: ${PORT}`)))
     .catch((error) => console.log(error.message));
-
-// CRITICAL: Export app for Vercel
-export default app;
