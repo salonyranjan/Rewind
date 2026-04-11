@@ -1,5 +1,6 @@
 import axios from 'axios';
 
+// Ensure this matches your server port
 const url = 'http://localhost:5000/posts';
 
 export const fetchPosts = () => axios.get(url);
