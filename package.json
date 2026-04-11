@@ -1,0 +1,11 @@
+{
+  "name": "rewind-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "client-install": "npm install --prefix client --legacy-peer-deps",
+    "server-install": "npm install --prefix server",
+    "client-build": "npm run build --prefix client",
+    "vercel-build": "npm run client-install && npm run server-install && npm run client-build"
+  }
+}
