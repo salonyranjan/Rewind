@@ -12,7 +12,7 @@ Rewind is a feature-rich social media application built using the MERN stack tha
 ---
 
 ## 🚀 Live Links
-- **Live Website:** [https://rewind-topaz.vercel.app](https://rewind-pied.vercel.app/)
+- **Live Website:** [https://rewind-pied.vercel.app](https://rewind-pied.vercel.app)
 - **API Endpoint:** [https://rewind-api-alwp.onrender.com](https://rewind-api-alwp.onrender.com)
 
 ---
