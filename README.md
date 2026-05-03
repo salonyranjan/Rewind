@@ -114,7 +114,7 @@
 
 ### 🏠 Memory Feed — *The Main Stage*
 
-<img src="./screenshots/home.png" width="100%" alt="Rewind — Memory Feed" style="border-radius:12px;" />
+<img src="./screenshots/hero.png" width="100%" alt="Rewind — Memory Feed" style="border-radius:12px;" />
 
 > 📱 **Responsive grid layout** — Material-UI cards auto-reflow from 4-column desktop to single-column mobile · **Like counter** updates instantly via optimistic Redux state
 
