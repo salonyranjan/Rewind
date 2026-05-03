@@ -4,6 +4,13 @@
 
 <br/>
 
+<!-- ── Hero Image ── -->
+<a href="https://rewind-pied.vercel.app">
+  <img src="./screenshots/home.png" alt="Rewind — Memory-Sharing Platform" width="100%" style="border-radius:16px; box-shadow: 0 0 50px #61DAFB55, 0 0 100px #593D8840; margin: 8px 0;" />
+</a>
+
+<br/><br/>
+
 <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&weight=900&size=21&pause=1000&color=61DAFB&center=true&vCenter=true&width=950&height=55&lines=📸+Create%2C+Share+%26+Relive+Your+Best+Memories;🔄+Optimistic+UI+%7C+Zero-Lag+Redux+State+Updates;🌐+Decoupled+MERN+%7C+Vercel+%2B+Render+%2B+MongoDB+Atlas;🔐+JWT+Auth+%7C+Google+OAuth+%7C+CORS+Protected" alt="Typing SVG" />
 
 <br/><br/>
