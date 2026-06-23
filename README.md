@@ -122,7 +122,7 @@
 
 ### ✍️ Create / Edit Memory — *The Editor*
 
-<img src="./screenshots/create.png" width="100%" alt="Rewind — Create Memory" style="border-radius:12px;" />
+<img src="./screenshots/create.png" width="500" alt="Rewind — Create Memory" style="border-radius:12px;" />
 
 > 🖼️ **Real-time Base64 image preview** before submission · **Tag chip input** for categorisation · Form validates all required fields inline
 
@@ -130,7 +130,7 @@
 
 ### 🃏 Memory Card Close-Up
 
-<img src="./screenshots/card.png" width="100%" alt="Rewind — Memory Card" style="border-radius:12px;" />
+<img src="./screenshots/card.png" width="500" alt="Rewind — Memory Card" style="border-radius:12px;" />
 
 > ❤️ **Optimistic Like** — state updates instantly before server confirmation · 🕒 **Relative timestamps** (e.g. "2 hours ago") · **Edit / Delete** controls visible to the creator
 
