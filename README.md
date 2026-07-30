@@ -130,7 +130,7 @@
 
 ### 🃏 Memory Card Close-Up
 
-<img src="./screenshots/card.png" width="400" alt="Rewind — Memory Card" style="border-radius:12px;" />
+<img src="./screenshots/memory_card.png" width="400" alt="Rewind — Memory Card" style="border-radius:12px;" />
 
 > ❤️ **Optimistic Like** — state updates instantly before server confirmation · 🕒 **Relative timestamps** (e.g. "2 hours ago") · **Edit / Delete** controls visible to the creator
 
