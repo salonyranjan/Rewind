@@ -6,7 +6,7 @@
 
 <!-- ── Hero Image ── -->
 <a href="https://rewind-pied.vercel.app">
-  <img src="./screenshots/home.png" alt="Rewind — Memory-Sharing Platform" width="100%" style="border-radius:16px; box-shadow: 0 0 50px #61DAFB55, 0 0 100px #593D8840; margin: 8px 0;" />
+  <img src="./screenshots/hero.gif" alt="Rewind — Memory-Sharing Platform" width="100%" style="border-radius:16px; box-shadow: 0 0 50px #61DAFB55, 0 0 100px #593D8840; margin: 8px 0;" />
 </a>
 
 <br/><br/>
